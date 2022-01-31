@@ -12,4 +12,4 @@ User searches a city of their choosing and upon submission will be shown the cur
 ![Image](./Develop/)
 
 ## Website
-Link to live URL:
+Link to live URL: https://robbiemurphy7.github.io/weather-dashboard/
