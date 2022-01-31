@@ -1,7 +1,7 @@
 # Weather Dashboard
 
 ## Purpose
-
+User searches a city of their choosing and upon submission will be shown the current weather forecast spanning temperature, wind strength, humidity and UV index.
 
 ## Built With
 * HTML
