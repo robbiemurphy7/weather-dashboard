@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Develop/style.css"/>
     <title>Weather Dashboard</title>
 </head>
 <body>
-    
+<!-- HEADER -->
+<header>
+    <h1>Weather Dashboard</h1>
+</header>
+
+<!-- SEARCH COLUMN -->
+<div class="row">
+    <div class="font-weight-bold col-d-3 col-sm-12">
+        <h2 class="search-header">Search For A City:</h2>
+    </div>
+    <div class="row col-sm-12 m-1">
+        <input type="text" name="search-city" placeholder="Nashville" />
+    </div>
+        <div class="row col-sm-12 m-1">
+            <button class="btn" id="search-btn" type="submit">Search</button>
+        </div>
+</div>
+<hr>
+<div class="row">
+    <div class="list-history">
+
+    </div>
+</div>
+
+<script src="./Develop/script.js"></script>
+
 </body>
 </html>
